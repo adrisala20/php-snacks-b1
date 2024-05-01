@@ -24,7 +24,6 @@ function stampaPartite($partite) {
     }
 }
 
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -55,6 +54,9 @@ function stampaPartite($partite) {
             <div>
                 <?php stampaPartite($partiteBasket); ?>
             </div>
+        </section>
+        <section>
+            <h2></h2>
         </section>
         
    </main>
